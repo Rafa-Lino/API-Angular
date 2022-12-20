@@ -36,7 +36,7 @@ while($linha = mysqli_fetch_assoc($executar)){
 json_encode(['dados'=>$cursos]);
 
 
-//var_dump($cursos); (teste)
+var_dump($cursos); //(teste)
 
 
 
